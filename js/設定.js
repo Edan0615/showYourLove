@@ -117,6 +117,7 @@ for (i = 1; i <= how_many_picture_are_there; i++) {
 
     audioPlayer.addEventListener('ended', function() {
         console.log('Music playback ended.');
+        audioPlayer.play();
         // You can add your own actions here when music playback ends.
     });
 });
